@@ -13,6 +13,7 @@ const Wrapper = styled.div<WrapperProps>`
     justify-content: ${props=> props.justify || 'flex-start'};
     align-items: ${props=> props.align || 'flex-start'};
     height: ${props=> props.height || 'unset'};
+    background-color: ${props=>props.theme.pallet.background || 'white'};
 `
 
 export default Wrapper
