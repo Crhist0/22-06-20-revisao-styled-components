@@ -122,7 +122,7 @@ export default function CardSuperTrunfo(props:Car) {
             <OuterCard>
                 <InnerCard>
                     <TopLetterWrapper>
-                        <TopLetter>3A</TopLetter>
+                        <TopLetter>{props.topTag}</TopLetter>
                     </TopLetterWrapper>
                     <Wrapper style={{borderRadius: '48px'}} align="center" justify="space-between" direction="column" height="100%">
                         <Imagem src={props.imageLink}/>
